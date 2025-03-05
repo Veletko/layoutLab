@@ -11,3 +11,65 @@
     font-weight: 400; 
     font-style: normal;
 }
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  body{
+    margin: 25px 11.11% 0 11.11%;
+    font-family: Mulish;
+  }
+  header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Mulish;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: normal;
+    letter-spacing: 0.2px;
+  }
+  nav{
+    display: flex;
+    gap: 50px;
+  }
+  header > div:first-child {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.auth-buttons {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.get-started{
+    background: linear-gradient(44deg, #CD10FF 15.75%, #9F06FF 84.63%);
+    color:white;
+    width: 147px;
+    height: 50px;
+    border-radius: 33px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+}
+.logo{
+    max-height: 40px;
+    min-height: 40px;
+    min-width: 160px;
+}
