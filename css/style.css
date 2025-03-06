@@ -11,10 +11,17 @@
     font-weight: 400; 
     font-style: normal;
 }
+*{
+  margin: 0;
+  padding: 0;
+  border:0;
+}
+
+
 html {
     box-sizing: border-box;
     font-size: 16px;
-  }
+ }
   
   *,
   *::before,
@@ -31,10 +38,12 @@ html {
     max-width: 100%;
   }
   body{
-    margin: 25px 11.11% 0 11.11%;
+    margin: 0;
+    padding: 0;
     font-family: Mulish;
   }
   header{
+    margin: 25px 11.11% 0 11.11%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -58,7 +67,7 @@ html {
     align-items: center;
     gap: 50px;
 }
-.get-started{
+.get-started-header{
     background: linear-gradient(44deg, #CD10FF 15.75%, #9F06FF 84.63%);
     color:white;
     width: 147px;
@@ -66,10 +75,114 @@ html {
     border-radius: 33px;
     display: flex;
     justify-content: center; 
+    align-items: center;   
+}
+.get-started{
+    background: linear-gradient(44deg, #CD10FF 15.75%, #9F06FF 84.63%);
+    color:white;
+    width: 206px;
+    height: 66px;
+    border-radius: 33px;
+    display: flex;
+    justify-content: center; 
     align-items: center;    
+    font-family: Mulish;
+    letter-spacing: 0.2px;
+    font-size: 1.25rem;
 }
 .logo{
     max-height: 40px;
     min-height: 40px;
     min-width: 160px;
+}
+.container-learn{
+  display: flex;
+  align-items: center; 
+  width: 100%;
+  margin-top: 26px;
+  position: relative;
+}
+.container-banner {
+  width: 75.69%;
+  height: 700px;
+  border-radius: 0px 20px 20px 0px;
+  background: linear-gradient(44deg, rgba(205, 16, 255, 0.05) 15.75%, rgba(159, 6, 255, 0.05) 84.63%);
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+}
+
+.content-learn-left {
+  position: relative;
+  margin-left: 11.11vw;
+  height: 100%;  
+  display: flex;
+  flex-direction: column;
+}
+
+.content-learn-left h1 {
+  font-family: Montserrat;
+  font-size: 3.75rem;
+  font-weight: 700;
+  color: #001A49;
+  line-height: 68px; 
+  letter-spacing: -1px;
+  margin-top: 26.28%; 
+
+}
+
+.content-learn-left p {
+  font-family: Mulish;
+  font-size: 1.25rem;
+  margin-top: 3.92%;  
+  margin-bottom: 7.84%; 
+  line-height: 30px;
+  color: #4F596A;
+}
+
+.content-learn-left .get-started{
+  margin-bottom: 19.61%;
+
+}
+.content-learn-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px; 
+}
+.photos-container {
+  display: flex;
+  align-items: center;
+  bottom: 18.14%; 
+}
+
+.photo {
+  width: 50px;     
+  height: 50px;     
+  border-radius: 50%;
+  border: 1px solid #F4F9FA;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  margin-left: -15px; 
+}
+
+.photo:first-child {
+  margin-left: 0; 
+}
+.video-container {
+  position: absolute;
+  right: 0;
+  width: 40.97%; 
+  height: 51.43%; 
+  background: #001A49;
+  box-shadow: 0px 32px 44px 0px #818A8C;
+  border-radius: 20px 0 0 20px; 
+  overflow: hidden;
+  cursor: pointer;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px 0 0 20px; 
 }
