@@ -428,3 +428,78 @@ p{
 .span-container span:first-child{
   font-weight: 700;
 }
+.curriculm-container{
+  width: 100%;
+  flex-direction: column;
+  padding: 148px 20.49% 0 20.49%;
+  justify-content: center;
+}
+.curriculm-container h2{
+  margin-bottom: 60px;
+}
+.curriculm-grid{
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+.curriculm-grid-item{
+  border-radius: 21px;
+  border: 1px solid #CD10FF;
+  min-height:  104px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.curriculm-grid-item:first-child{
+  min-height: 310px;
+  padding-bottom: 44px;
+  padding-top: 40px;
+}
+.curriculm-grid-item-text{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 40px;
+}
+.curriculm-grid-item-text h3{
+  color: #001A49;
+  font-family: Montserrat;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5rem; 
+  left: 0;
+}
+.curriculm-grid-item-text p{
+  color: #4F596A;
+  font-family: Mulish;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem;
+  text-align: left;
+}
+.curriculm-grid-item-button{
+  width: 48px;
+  height: 48px;
+  border-radius: 50%; 
+  background-color: #f9d7c6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  margin-right: 40px;
+}
+.curriculm-grid-item:first-child .curriculm-grid-item-button {
+  align-self: flex-start;
+  margin-top: 16px;
+}
+.arrow-up {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #8a4af3; 
+  position: relative;
+}
