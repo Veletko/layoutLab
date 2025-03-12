@@ -177,6 +177,10 @@ video {
   object-fit: cover;
   border-radius: 20px 0 0 20px; 
 }
+.stats-absolute-container{
+  width: 100%;
+  position: relative;
+}
 .stats-container {
   margin: 100px 11.11% 0 11.11%;
   display: flex;
@@ -187,6 +191,30 @@ video {
   height: 172px;
   justify-content:space-around;
   position: relative;
+  overflow: hidden;
+}
+.stats-absolute-container .circle-container{
+  top:0;
+  left:-46px;
+}
+.stats-absolute-container .circle-orange{
+  height: 86px;
+  width: 86px;
+  top: 222px;
+  left: 202px;
+}
+.stats-absolute-container .circle-purple{
+  top: 20px;
+  width: 288px;
+  height: 288px;
+}
+.circle-big-orange{
+  position: absolute;
+  border-radius: 50%;
+  background: linear-gradient(36deg, #FFD7A9 9.11%, #FFAE70 71.64%);
+  height: 382px;
+  width: 382px;
+  right: -248px;
 }
 .stat-item {
   width: 10.43%;
@@ -568,4 +596,86 @@ p{
   display: flex;
   right: 154px;
   top: 92px;
+}
+footer{
+  background: linear-gradient(44deg, rgba(205, 16, 255, 0.05) 15.75%, rgba(159, 6, 255, 0.05) 84.63%);
+}
+.footer-top {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 63px;
+  padding-bottom: 50px;
+  gap: 80px;
+}
+.subscribe-container {
+  width: 61.18%;
+  position: relative;
+  justify-content: center;
+  display: flex;
+  border-radius: 50px;
+}
+.subscribe-container input {
+  width: 100%;
+  height: 66px;
+  font-size: 0.875rem;
+  border-radius: 50px;
+  justify-content: left;
+  padding-left: 40px;
+}
+.subscribe-container input::placeholder {
+  opacity: 0.5; 
+  color: #4F596A;
+  font-family: Mulish;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.subscribe-container a {
+  width: 135px;
+  height: 50px;
+  font-size: 1rem;
+  position: absolute;
+  right: 0;
+  margin: 8px;
+}
+.footer-top .logo{
+  width: 150px;
+  min-width: 150px;
+  min-height: 31px;
+}
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  text-align: left;
+  padding-left: 386px;
+  padding-right: 433px;
+  padding-bottom: 80px;
+}
+.footer-column{
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  justify-content: left;
+}
+.footer-column h4 {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #001A49;
+}
+
+.footer-column ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+.footer-column ul li a {
+  text-decoration: none;
+  color: #4F596A;
+  font-size: 0.875rem;
 }
