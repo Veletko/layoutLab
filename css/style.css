@@ -147,6 +147,9 @@ html {
   align-items: center;
   bottom: 18.14%; 
 }
+span > span{
+  color: #9F07FF;
+}
 .photo {
   width: 50px;     
   height: 50px;     
@@ -155,6 +158,10 @@ html {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   margin-left: -15px; 
 }
+.photos-container > :nth-child(3){
+  margin-right: 9px;
+}
+
 
 .photo:first-child {
   margin-left: 0; 
@@ -287,7 +294,8 @@ p{
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
   width: 64px;
   height: 64px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  flex-shrink: 0;
 }
 .container-cards{
   position: relative;
@@ -316,11 +324,15 @@ p{
 .card .container-text{
   margin-top: 0px;
   align-items: flex-start;
+  max-width: 500px;
+  margin-right: 5px;
 }
 .card p{
   text-align: left;
   font-size: 1rem;
   line-height: 1.5rem;
+  word-wrap: break-word; 
+  white-space: normal;
 }
 .card h2{
   font-size: 1.5rem;
@@ -354,14 +366,14 @@ p{
 }
 .container-circle{
   position: relative;
-  width: 37.41%; 
+  width: 419px; 
   height: 382px; 
   display: flex;
 }
 .circle-instructor{
   position: relative;
   margin: 11px 40px 17px 25px;
-  width: 84.48%;
+  width: 354px;
   height: 354px;
   background: linear-gradient(44deg, #CD10FF 15.75%, #9F06FF 84.63%);
   border-radius: 50%;
@@ -375,7 +387,7 @@ p{
 }
 .circle-instructor-1{
   position: absolute;
-  width: 21%;
+  width: 88px;
   height: 88px;
   background: linear-gradient(36deg, #FFD7A9 9.11%, #FFAE70 71.64%);
   border-radius: 50%;
@@ -384,7 +396,7 @@ p{
 }
 .circle-instructor-2{
   position: absolute;
-  width: 31.5%;
+  width: 132px;
   height: 132px;
   background: linear-gradient(36deg, #FFD7A9 9.11%, #FFAE70 71.64%);
   opacity: 0.5;
@@ -443,6 +455,7 @@ p{
   align-items: center;
   width: 100%;
 }
+
 .span-container{
   padding-left: 14px;
   display: flex;
@@ -497,6 +510,7 @@ p{
   flex-direction: column;
   gap: 20px;
   padding-left: 40px;
+  margin-right: 5px;
 }
 .curriculm-grid-item-text h3{
   color: #001A49;
@@ -515,6 +529,8 @@ p{
   font-weight: 400;
   line-height: 1.625rem;
   text-align: left;
+  word-wrap: break-word; 
+  white-space: normal;
 }
 .curriculm-grid-item-button{
   width: 48px;
@@ -526,6 +542,7 @@ p{
   align-items: center;
   outline: none;
   margin-right: 40px;
+  flex-shrink: 0;
 }
 .curriculm-grid-item:first-child .curriculm-grid-item-button {
   align-self: flex-start;
@@ -656,12 +673,14 @@ footer{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
+  justify-content: center;
   text-align: left;
-  padding-left: 386px;
-  padding-right: 433px;
+  padding-left: 26.8%;
+  padding-right: 30.07%;
   padding-bottom: 80px;
 }
 .footer-column{
+  min-width: 166px;
   display: flex;
   flex-direction: column;
   gap:20px;
