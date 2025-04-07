@@ -1,0 +1,123 @@
+[
+    {
+      "title": "Introduction to Programming",
+      "category": "Programming",
+      "language": "Python",
+      "duration": "6 weeks",
+      "price": "Free",
+      "image": "img/img1.jpg"
+    },
+    {
+      "title": "Web Development Basics",
+      "category": "Web Development",
+      "language": "HTML, CSS, JavaScript",
+      "duration": "8 weeks",
+      "price": "120 BYN",
+      "image": "img/img2.jpg"
+    },
+    {
+      "title": "JavaScript for Beginners",
+      "category": "Programming",
+      "language": "JavaScript",
+      "duration": "5 weeks",
+      "price": "100 BYN",
+      "image": "img/img3.jpg"
+    },
+    {
+      "title": "Mobile App Development",
+      "category": "Mobile Development",
+      "language": "Kotlin, Swift",
+      "duration": "10 weeks",
+      "price": "200 BYN",
+      "image": "img/img4.jpg"
+    },
+    {
+      "title": "Data Science with Python",
+      "category": "Data Analytics",
+      "language": "Python",
+      "duration": "12 weeks",
+      "price": "250 BYN",
+      "image": "img/img5.jpg"
+    },
+    {
+      "title": "Machine Learning",
+      "category": "Artificial Intelligence",
+      "language": "Python",
+      "duration": "10 weeks",
+      "price": "300 BYN",
+      "image": "img/img6.jpg"
+    },
+    {
+      "title": "DevOps for Beginners",
+      "category": "DevOps",
+      "language": "Bash, Docker, Kubernetes",
+      "duration": "6 weeks",
+      "price": "150 BYN",
+      "image": "img/img7.jpg"
+    },
+    {
+      "title": "Cybersecurity Basics",
+      "category": "Security",
+      "language": "Various",
+      "duration": "8 weeks",
+      "price": "180 BYN",
+      "image": "img/img8.jpg"
+    },
+    {
+      "title": "Git and GitHub Essentials",
+      "category": "Developer Tools",
+      "language": "Git",
+      "duration": "2 weeks",
+      "price": "Free",
+      "image": "img/img9.jpg"
+    },
+    {
+      "title": "React.js for Beginners",
+      "category": "Frontend Development",
+      "language": "JavaScript, React",
+      "duration": "6 weeks",
+      "price": "130 BYN",
+      "image": "img/img10.jpg"
+    },
+    {
+      "title": "Node.js and API Development",
+      "category": "Backend Development",
+      "language": "JavaScript, Node.js",
+      "duration": "7 weeks",
+      "price": "150 BYN",
+      "image": "img/img11.jpg"
+    },
+    {
+      "title": "SQL and Databases",
+      "category": "Databases",
+      "language": "SQL",
+      "duration": "4 weeks",
+      "price": "110 BYN",
+      "image": "img/img12.jpg"
+    },
+    {
+      "title": "Software Architecture",
+      "category": "Software Development",
+      "language": "Various",
+      "duration": "8 weeks",
+      "price": "200 BYN",
+      "image": "img/img13.jpg"
+    },
+    {
+      "title": "Software Testing (QA)",
+      "category": "Testing",
+      "language": "Various",
+      "duration": "6 weeks",
+      "price": "140 BYN",
+      "image": "img/img14.jpg"
+    },
+    {
+      "title": "Artificial Intelligence and Neural Networks",
+      "category": "Artificial Intelligence",
+      "language": "Python",
+      "duration": "10 weeks",
+      "price": "280 BYN",
+      "image": "img/img15.jpg"
+    }
+  ]
+  
